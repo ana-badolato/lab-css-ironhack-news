@@ -227,7 +227,23 @@ header {
 }
 
 
-@media (760 > width < 1024){
+@media (min-width: 761px) and (max-width: 1023px) {
 
 
+  .navbar{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .articles-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .article {
+    width: 45%;
+  }
 }
