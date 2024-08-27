@@ -177,3 +177,57 @@ header {
 }
   
 /* Write your CSS below */
+
+@media (max-width: 760px){
+
+  header, .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar li {
+    width: 100vw;
+    border: 0.1px solid white;
+  }
+
+  .articles-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article {
+    width: 82vw;
+    margin-bottom: 32px;
+  }
+
+  .main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image, .content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image img, .content h2, .content p {
+    text-align: left;
+    width: 64vw;
+  }
+
+  .content h2 {
+    padding-top: 24px;
+  }
+
+  .btn btn-blue {
+    width: 500px;
+  }
+
+}
+
+
+@media (760 > width < 1024){
+
+
+}
